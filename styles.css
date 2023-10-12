@@ -1,1 +1,94 @@
+/*
+Author: Harpreet Kaur
+Date: 10/3/23
+*/
+body, header, nav, main, footer, h1, div, img, ul{
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+body{
+	background-color: #506650;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+header{
+	background-color: #739373;
+	margin: 1em;
+}
+header h1{
+	color: #fff;
+	font-size: 80px;
+	font-weight: 600;
+	text-align: center;
+	background-clip: text;
+	/*border: 1px dashed #fff;*/
+}
+nav{
+	padding: 1%;
+	margin-bottom: 1%;
+}
+main{
+	background-color: #739373;
+	padding: 2%;
+	margin: 1em;
+	font-size: 2em;
+	font-family: 'DM Sans', sans-serif;
+	text-align: center;
+	color: #fff;
+	/*border: 1px dashed #fff;*/
+}
+.cell{
+	color: #506650;
+}
+#contact h5{
+	text-decoration: underline;
+}
+#contact a {
+	text-decoration: none;
+	color: #fff;
+}
+#chapter4{
+	text-align: left;
+	font-size: .5em;
+}
+main p a{
+	text-decoration: none;
+	color: #fff;
+}
+#chapter5{
+	text-align: left;
+	font-size: .5em;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	font-size: 1.5em;
+	font-family: 'Francois One', sans-serif;
+}
 
+nav li a{
+	display: block;
+	color: #fff;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+footer p{
+	font-size: 1em;
+	text-align: center;
+	color: #fff;
+	padding: 0 1em;
+}
+footer p a{
+	color: #fff;
+	text-decoration: none;
+}
