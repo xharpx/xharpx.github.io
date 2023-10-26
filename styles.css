@@ -21,7 +21,7 @@ header{
 }
 header h1{
 	color: #fff;
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: 600;
 	text-align: center;
 	background-clip: text;
@@ -37,11 +37,37 @@ main{
 	color: #fff;
 	/*border: 1px dashed #fff;*/
 }
+.mobile h3{
+	text-shadow: 5px 5px 0px #ccc;
+}
+.description{
+	font-size: .75em;
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+}
+/*.likes{
+	font-size: .75em;
+	border: 2px solid #777977;
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+	float: right;
+}*/
+.scooby{
+	display: none;
+}
+.about{
+	width: 80%;
+	margin: 25px;
+	padding: 10px;
+	overflow: hidden;
+}
 #contact{
 	font-size: .75em;
 	text-align: center;
 }
-#contact .cell{
+ #contact .cell{
 	color: #d5ec0b;
 }
 #contact .email-link{
@@ -67,7 +93,7 @@ nav ul{
 	text-align: center;
 }
 nav li{
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: 'Almarai', sans-serif;
 	border-top: 1px solid #fff;
 }
@@ -84,11 +110,11 @@ nav li a:hover{
 	color:#000;
 	background-color: #fff;
 }
-.map1{
+.map2{
 	width: 600px;
 	height: 450px;
 }
-.map2{
+.map1{
 	width: 600px;
 	height: 450px;
 }
@@ -121,6 +147,23 @@ nav li a:hover{
 	main ul{
 		margin: 0 0 4% 10%;
 	}
+	.description{
+		border: 2px solid #777977;
+		padding: 10px;
+		margin: 10px;
+		font-size: .75em;
+		text-align: center;
+		padding: .5% 1% 2% 0;
+	}
+	/*.scooby{
+		border-radius: 8px;
+		border: 2px solid #fff;
+		margin: 0 auto;
+		display: inline-block;
+	}*/
+	.scooby{
+		display: none;
+	}
 	#chapter{
 		font-size: .75em;
 		text-align: center;
@@ -128,6 +171,11 @@ nav li a:hover{
 	#intro{
 		text-align: center;
 		font-size: .75em;
+	}
+	#intro img{
+		width: 200px;
+		height: auto;
+		display: inline-block;
 	}
 	.email-link{
 		font-size: 1em;
