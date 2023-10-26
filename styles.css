@@ -8,19 +8,19 @@ body, header, nav, main, footer, h1, div, img, ul{
 	border: 0
 }
 body{
-	background-color: #506650;
+	background-color: #676867;
 }
 img{
 	max-width: 100%;
 	display: block;
 }
 header{
-	background-color: #739373;
+	color: #fff;
 	margin: 1em;
 }
 header h1{
 	color: #fff;
-	font-size: 80px;
+	font-size: 50px;
 	font-weight: 600;
 	text-align: center;
 	background-clip: text;
@@ -31,17 +31,20 @@ nav{
 	margin-bottom: 1%;
 }
 main{
-	background-color: #739373;
-	padding: 2%;
-	margin: 1em;
+	padding: 1%;
 	font-size: 2em;
-	font-family: 'DM Sans', sans-serif;
-	text-align: center;
 	color: #fff;
 	/*border: 1px dashed #fff;*/
 }
-.cell{
-	color: #506650;
+#contact{
+	font-size: .75em;
+	text-align: center;
+}
+ #contact .cell{
+	color: #d5ec0b;
+}
+#contact .email-link{
+	color: #d5ec0b;
 }
 #contact h5{
 	text-decoration: underline;
@@ -50,7 +53,7 @@ main{
 	text-decoration: none;
 	color: #fff;
 }
-#chapter4{
+#chapter{
 	text-align: left;
 	font-size: .5em;
 }
@@ -58,17 +61,6 @@ main p a{
 	text-decoration: none;
 	color: #fff;
 }
-#chapter5{
-	text-align: left;
-	font-size: .5em;
-}
-#chapter6{
-	text-align: left;
-	font-size: .5em;
-}
-#chapter7{
-	text-align: left;
-	font-size: .5em;
 nav ul{
 	list-style-type: none;
 	text-align: center;
@@ -76,13 +68,28 @@ nav ul{
 nav li{
 	font-size: 1.5em;
 	font-family: 'Francois One', sans-serif;
+	border-top: 1px solid #fff;
 }
-
+nav li:first-child{
+	border-top: none;
+}
 nav li a{
 	display: block;
 	color: #fff;
 	padding: .5em 1em;
 	text-decoration: none;
+}
+nav li a:hover{
+	color: #000;
+	background-color: #fff;
+}
+.map1{
+	width: 600px;
+	height: 450px;
+}
+.map2{
+	width: 600px;
+	height: 450px;
 }
 footer{
 	position: absolute;
