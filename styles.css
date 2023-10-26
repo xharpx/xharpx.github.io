@@ -37,12 +37,6 @@ main{
 	color: #fff;
 	/*border: 1px dashed #fff;*/
 }
-.about{
-	width: 80%;
-	margin: 25px;
-	padding: 10px;
-	overflow: hidden;
-}
 #contact{
 	font-size: .75em;
 	text-align: center;
