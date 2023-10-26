@@ -14,13 +14,14 @@ img{
 	max-width: 100%;
 	display: block;
 }
+/*Style rules for mobile viewport*/
 header{
 	color: #fff;
 	margin: 1em;
 }
 header h1{
 	color: #fff;
-	font-size: 50px;
+	font-size: 60px;
 	font-weight: 600;
 	text-align: center;
 	background-clip: text;
@@ -31,16 +32,22 @@ nav{
 	margin-bottom: 1%;
 }
 main{
-	padding: 1%;
+	padding: 2%;
 	font-size: 2em;
 	color: #fff;
 	/*border: 1px dashed #fff;*/
+}
+.about{
+	width: 80%;
+	margin: 25px;
+	padding: 10px;
+	overflow: hidden;
 }
 #contact{
 	font-size: .75em;
 	text-align: center;
 }
- #contact .cell{
+#contact .cell{
 	color: #d5ec0b;
 }
 #contact .email-link{
@@ -67,7 +74,7 @@ nav ul{
 }
 nav li{
 	font-size: 1.5em;
-	font-family: 'Francois One', sans-serif;
+	font-family: 'Almarai', sans-serif;
 	border-top: 1px solid #fff;
 }
 nav li:first-child{
@@ -80,7 +87,7 @@ nav li a{
 	text-decoration: none;
 }
 nav li a:hover{
-	color: #000;
+	color:#000;
 	background-color: #fff;
 }
 .map1{
@@ -91,6 +98,61 @@ nav li a:hover{
 	width: 600px;
 	height: 450px;
 }
+@media screen and (min-width: 630px){
+	/*Tablet Viewport: Show tablet-desktop class, hide mobile class */
+	.tablet-desktop{
+		display: block;
+	}
+	.mobile{
+		display: none;
+	}
+
+	/*Tablet Viewport: Style rule for header*/
+	header{
+		padding-bottom: 2%;
+	}
+
+	/*Tablet Viewport: Style for nav area*/
+	nav li{
+		border-top: none;
+		display: inline-block;
+		border-right: 1px solid #fff;
+	}
+	nav li:last-child{
+		border-right: none;
+	}
+	nav li a{
+		padding: 0.1em 0.75em;
+	}
+	main ul{
+		margin: 0 0 4% 10%;
+	}
+	#chapter{
+		font-size: .75em;
+		text-align: center;
+	}
+	#intro{
+		text-align: center;
+		font-size: .75em;
+	}
+	.email-link{
+		font-size: 1em;
+	}
+	.cell{
+		font-size: 1.25em;
+	}
+	.map1{
+		width: 600px;
+		height: 450px;
+		margin: 10px;
+	}
+	.map2{
+		width: 600px;
+		height: 450px;
+		margin: 10px;
+	}
+}
+
 footer{
 	position: absolute;
 	bottom: 0;
