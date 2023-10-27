@@ -54,6 +54,11 @@ main{
 	width: 50%;
 	float: right;
 }*/
+.puppy{
+	width: 300px;
+	height: 200px;
+	display: inline-block;
+}
 .about{
 	width: 80%;
 	margin: 25px;
@@ -64,7 +69,7 @@ main{
 	font-size: .75em;
 	text-align: center;
 }
- #contact .cell{
+#contact .cell{
 	color: #d5ec0b;
 }
 #contact .email-link{
@@ -108,12 +113,12 @@ nav li a:hover{
 	background-color: #fff;
 }
 .map2{
-	width: 600px;
-	height: 450px;
+	width: 300px;
+	height: 200px;
 }
 .map1{
-	width: 600px;
-	height: 450px;
+	width: 300px;
+	height: 200px;
 }
 @media screen and (min-width: 630px){
 	/*Tablet Viewport: Show tablet-desktop class, hide mobile class */
