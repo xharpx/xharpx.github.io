@@ -54,9 +54,6 @@ main{
 	width: 50%;
 	float: right;
 }*/
-.scooby{
-	display: none;
-}
 .about{
 	width: 80%;
 	margin: 25px;
@@ -154,15 +151,6 @@ nav li a:hover{
 		font-size: .75em;
 		text-align: center;
 		padding: .5% 1% 2% 0;
-	}
-	/*.scooby{
-		border-radius: 8px;
-		border: 2px solid #fff;
-		margin: 0 auto;
-		display: inline-block;
-	}*/
-	.scooby{
-		display: none;
 	}
 	#chapter{
 		font-size: .75em;
