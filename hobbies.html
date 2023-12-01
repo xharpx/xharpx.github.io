@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Hobbies</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		<!--Put website name and/or logo in header-->
+		<header> 
+			<h1>My Hobbies</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="contact.html">Contact</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+			</ul>
+		</nav>
+		<main class="grid2">
+			<article>
+				<h3>Likes</h3>
+				<ul>
+					<li>Music: my playlist has over 200 songs and I continue to add to it everyday.</li>
+					<li>Books: I read a variety of genres, my top three are, fantasy, fiction, and romance.</li>
+					<li>I like to hangout with my friends</li>
+					<li>I love my dog: he's beyond spoiled with new toys, sweaters, treats, and he even travels with my family to wherever we go.</li>
+				</ul>
+			</article>
+			<article>
+				<h3>Dislikes</h3>
+				<ul>
+					<li>Seafood: makes me nauseous</li>
+					<li>Movies based on real life</li>
+					<li>Snakes</li>
+					<li>Airplanes: this one is hard to avoid because my family travels a lot</li>
+				</ul>
+			</article>
+			<div id="form">
+				<form>
+					<fieldset>
+						<legend>Tell me about yourself.</legend>
+							<label for="book">What is your favorite book genre?</label>
+							<select name="book" id="book">
+								<option value="fiction">Fiction</option>
+								<option value="non-fiction">Non-Fiction</option>
+								<option value="fantasy">Fantasy</option>
+								<option value="Romance">Romance</option>
+							</select>
+							<label for="food">What is your favorite food?</label>
+							<textarea id="food" name="food" rows="2" cols="35"></textarea>
+
+							<label for="pet">Do you have any pets?</label>
+							<select name="pet" id="pet">
+								<option value="yes">Yes</option>
+								<option value="no">No</option>
+							</select>
+							<label for="yes">If you answered yes, what is it?</label>
+							<textarea id="yes" name="yes" rows="2" cols="35"></textarea>
+					</fieldset>
+
+					<input type="submit" id="submit" value="Submit" class="btn">
+				</form>
+
+				
+			</div>
+		</main>
+		
+		<footer>
+		</footer>
+	</div>
+</body>
+
+</html>
