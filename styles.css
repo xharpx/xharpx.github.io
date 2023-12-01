@@ -1,7 +1,7 @@
 /*
 Author: Harpreet Kaur
 Date: 10/3/23*/
-body, header, nav, main, footer, h1, div, img, ul, article, figure, figcaption, section{
+body, header, nav, main, footer, h1, div, img, ul, article, figcaption, figure, section{
 	margin: 0;
 	padding: 0;
 	border: 0
@@ -34,6 +34,10 @@ main{
 	font-size: 1.75em;
 	color: #fff;
 }
+a{
+	text-decoration: none;
+	color: #fff;
+}
 article{
 	padding: 2%;
 }
@@ -59,6 +63,11 @@ article:nth-of-type(3){
 .puppy{
 	width: 300px;
 	height: 200px;
+	display: inline-block;
+}
+.dog{
+	width: auto;
+	height: 500px;
 	display: inline-block;
 }
 .round{
@@ -90,6 +99,24 @@ article:nth-of-type(3){
 #chapter{
 	text-align: left;
 	font-size: .5em;
+}
+#form{
+	margin-top: 2%;
+}
+fieldset, input, select, textarea{
+	margin-bottom: 2%;
+}
+fieldset legend{
+	font-weight: bold;
+	font-size: 1em;
+}
+label{
+	font-size: .75em;
+	display: block;
+	padding-top: 3%;
+}
+.btn{
+	margin-bottom: 50px;
 }
 main p a{
 	text-decoration: none;
@@ -128,6 +155,12 @@ nav li a:hover{
 	bottom: 0;
 	color: #000;
 	text-align: center;
+}
+.grid2 article ul{
+	margin-left: 10px;
+}
+.grid2 article li{
+	margin-left: 20px;
 }
 .map2{
 	width: 300px;
@@ -200,6 +233,28 @@ nav li a:hover{
 		height: 450px;
 		margin: 10px;
 	}
+	table{
+		border: 2px solid #fff;
+		border-collapse: collapse;
+		margin: 0 auto;
+		width: 80%;
+		height: 200px;
+	}
+	caption{
+		font-size: 1.5em;
+		font-weight: 600;
+		padding: 1%;
+	}
+	th, td{
+		border: 2px solid #fff;
+	}
+	th{
+		background-color: #000;
+		font-size: 1em;
+	}
+	tr:nth-child(odd){
+		background-color: #8f8f8f;
+	}
 }
 
 @media screen and (min-width: 1015px), print{
@@ -225,6 +280,26 @@ nav li a:hover{
 	}
 	.cell{
 		font-size: 1.25em;
+	}
+	.grid2 article{
+		margin: auto;
+		height: 200px;
+		width: 1000px;
+		padding-top: .5%;
+		font-size: .75em;
+	}
+	form{
+		margin: auto;
+		text-align: center;
+		height: 200px;
+		width: 400px;
+		margin-bottom: 10px;
+	}
+	.btn{
+		font-size: .75em;
+		display: inline-block;
+		border-radius: 5px;
+		border-color: #fff;
 	}
 }
 @media screen and (min-width: 1921px){
