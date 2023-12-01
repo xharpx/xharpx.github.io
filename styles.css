@@ -239,11 +239,13 @@ nav li a:hover{
 		margin: 0 auto;
 		width: 80%;
 		height: 200px;
+		color: #fff;
 	}
 	caption{
 		font-size: 1.5em;
 		font-weight: 600;
 		padding: 1%;
+		color: #fff;
 	}
 	th, td{
 		border: 2px solid #fff;
