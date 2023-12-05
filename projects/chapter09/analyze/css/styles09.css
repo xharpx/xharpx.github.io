@@ -63,6 +63,7 @@ aside {
 video {
 	border: 0.5em double #0419B8;
 	border-radius: 3em;
+	max-width: 100%;
 }
 
 /* Style for the footer element */
