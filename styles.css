@@ -38,6 +38,16 @@ a{
 	text-decoration: none;
 	color: #fff;
 }
+table{
+	padding: 2%;
+}
+th, td{
+	border: 2px solid #fff;
+	background-color: #4e4b4b;
+}
+caption{
+	font-size: 1.5em;
+}
 article{
 	padding: 2%;
 }
@@ -239,13 +249,11 @@ nav li a:hover{
 		margin: 0 auto;
 		width: 80%;
 		height: 200px;
-		color: #fff;
 	}
 	caption{
 		font-size: 1.5em;
 		font-weight: 600;
 		padding: 1%;
-		color: #fff;
 	}
 	th, td{
 		border: 2px solid #fff;
@@ -254,9 +262,13 @@ nav li a:hover{
 		background-color: #000;
 		font-size: 1em;
 	}
+	td:hover{
+		background-color: #000;
+	}
 	tr:nth-child(odd){
 		background-color: #8f8f8f;
 	}
+	
 }
 
 @media screen and (min-width: 1015px), print{
@@ -308,6 +320,10 @@ nav li a:hover{
 	#container{
 		width: 1920px;
 		margin: 0 auto;
+	}
+
+	table{
+		width: 80%;
 	}
 }
 
