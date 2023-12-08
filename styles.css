@@ -49,6 +49,9 @@ th, td{
 caption{
 	font-size: 1.5em;
 }
+.grid article{
+	font-size: .80em;
+}
 article{
 	padding: 2%;
 }
