@@ -3,19 +3,35 @@
 <head>
 	<meta charset="utf-8">
 	<title>Home</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="css/styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
 </head>
 <body>
+
 	<div id="container">
-		<!--Put website name and/or logo in header-->
-		<header> 
+
+		<!--Mobile Nav-->
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Me</a>
+				<a href="projects.html">Projects</a>
+				<a href="contact.html">Contact</a>
+				<a href="hobbies.html">Hobbies</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+
+		<header id="ffc-logo"> 
 			<h1 class="header">Welcome To My Portfolio</h1>
 		</header>
-		<nav>
+
+		<nav class="tablet-desktop">
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About Me</a></li>
@@ -28,16 +44,19 @@
 			<div id="intro">
 				<p>Hi my name is Harpreet Kaur and this is my portfolio!</p>
 				<figure class="frame"> 
-					<a href="about.html"><img src="puppy.gif" alt="puppy gif"></a>
+					<a href="about.html"><img src="images/puppy.gif" alt="puppy gif"></a>
 					<figcaption class="pic-text">About me</figcaption>
 				</figure>
 			</div>
 		</main>
 		
 		<footer>
-			
+			<p><a href="mailto:harpreet.kaur@stu.cvccworks.edu">harpreet.kaur@stu.cvccworks.edu</a></p>
 		</footer>
 	</div>
+
+	<script src="script.js"></script>
+
 </body>
 
 </html>
