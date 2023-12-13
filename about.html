@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>About</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="css/styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,11 +11,25 @@
 </head>
 <body>
 	<div id="container">
-		<!--Put website name and/or logo in header-->
+
+		<!--Mobile Nav-->
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Me</a>
+				<a href="projects.html">Projects</a>
+				<a href="contact.html">Contact</a>
+				<a href="hobbies.html">Hobbies</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+
 		<header> 
 			<h1>About Me</h1>
 		</header>
-		<nav>
+		<nav class="tablet-desktop">
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About Me</a></li>
@@ -31,15 +45,6 @@
 				I am in Programming & Software Development where I've learned to code throughout my junior and senior years. It has impacted me in many ways but most importantly,
 				it has driven my decision to pursue something in the Computer Science field during college.</p>
 			</article>
-			<!--<article>
-				<h3>Pastime</h3>
-				<img src="images/scooby.jpeg" alt="picture of my dog" class="dog round">
-				<ul>
-					<li>I spend most of my free time with my friends.</li>
-					<li>I like to read; my favorite genres are fantasy, fiction, and romance.</li>
-					<li>I absolutely love my dog, he is my favorite person and I love playing with him and taking him on walks.</li>
-				</ul>
-			</article>-->
 			<article>
 				<h3>Education</h3>
 				<p>As a senior in high school, I have worked hard so that I may further my education in college/university. I plan to major in Computer Science and minor in Finance
@@ -60,7 +65,11 @@
 		
 		<footer>
 		</footer>
+
 	</div>
+
+	<script src="script.js"></script>
+
 </body>
 
 </html>
