@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Projects</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="css/styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,11 +11,27 @@
 </head>
 <body>
 	<div id="container">
-		<!--Put website name and/or logo in header-->
+		
+		<!--Mobile Nav-->
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Me</a>
+				<a href="projects.html">Projects</a>
+				<a href="contact.html">Contact</a>
+				<a href="hobbies.html">Hobbies</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+
 		<header> 
 			<h1>My Projects</h1>
 		</header>
-		<nav><ul>
+
+		<nav class="tablet-desktop">
+			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About Me</a></li>
 				<li><a href="projects.html">Projects</a></li>
@@ -24,51 +41,52 @@
 		</nav>
 		<main>
 			<div id="chapter">
-			<table>
-				<caption>Assignments</caption>
-				<tr>
-					<th>Chapter 4</th>
-					<th>Chapter 5</th>
-					<th>Chapter 6</th>
-					<th>Chapter 7</th>
-					<th>Chapter 8</th>
-					<th>Chapter 9</th>
-					<th>Chapter 10</th>
-				</tr>
-				<tr>
-					<td><a href="projects/chapter04/apply/index.html" target="_blank">Apply Your Knowledge</a></td>
-					<td><a href="projects/chapter05/apply/index.html" target="_blank">Apply Your Knowledge</a></td>
-					<td><a href="projects/chapter06/apply/index.html" target="_blank">Apply Your Knowledge</a></td>
-					<td><a href="projects/chapter07/apply/index.html" target="_blank">Apply Your Knowledge</a></td>
-					<td><a href="projects/chapter08/apply/index.html" target="_blank">Apply Your Knowledge</a></td>
-					<td><a href="projects/chapter09/apply/index.html" target="_blank">Apply Your Knowledge</a></td>
-					<td><a href="projects/chapter10/apply/index.html" target="_blank">Apply Your Knowledge</a></td>
-				</tr>
-				<tr>
-					<td><a href="projects/chapter04/extend/extend04.html" target="_blank">Extend Your knowledge</a></td>
-					<td><a href="projects/chapter05/extend/index.html" target="_blank">Extend Your Knowledge</a></td>
-					<td><a href="projects/chapter06/extend/extend06.html" target="_blank">Extend Your Knowledge</a></td>
-					<td><a href="projects/chapter07/extend/extend07.html" target="_blank">Extend Your Knowledge</a></td>
-					<td><a href="projects/chapter08/extend/extend08.html" target="_blank">Extend Your Knowledge</a></td>
-					<td><a href="projects/chapter09/analyze/index.html" target="_blank">Analyze, Correct, Improve</a></td>
-				</tr>
-				<tr>
-					<td><a href="projects/chapter08/fitness08/index.html" target="_blank">Chapter 4 Fitness</a></td>
-					<td><a href="fitness/index.html" target="_blank">Chapter 5 Fitness</a></td>
-					<td><a href="projects/chapter06/fitness06/index.html" target="_blank">Chapter 6 Fitness</a></td>
-					<td><a href="projects/chapter07/fitness07/fitness/index.html" target="_blank">Chapter 7 Fitness</a></td>
-					<td><a href="projects/chapter08/fitness08/index.html" target="_blank">Chapter 8 Fitness</a></td>
-					<td><a href="projects/chapter09/fitness09/index.html" target="_blank">Chapter 9 Fitness</a></td>
-					<td><a href="projects/chapter10/fitness10/index.html" target="_blank">Chapter 10 Fitness</a></td>
-				</tr>
-			</table>
-		</div>
+				<table>
+					<caption>Assignments</caption>
+					<tr>
+						<th>Chapter 4</th>
+						<th>Chapter 5</th>
+						<th>Chapter 6</th>
+						<th>Chapter 7</th>
+						<th>Chapter 8</th>
+						<th>Chapter 9</th>
+					</tr>
+					<tr>
+						<td><a href="projects/chapter04/apply/index.html" target="_blank">Apply Your Knowledge</a></td>
+						<td><a href="projects/chapter05/apply/index.html" target="_blank">Apply Your Knowledge</a></td>
+						<td><a href="projects/chapter06/apply/index.html" target="_blank">Apply Your Knowledge</a></td>
+						<td><a href="projects/chapter07/apply/index.html" target="_blank">Apply Your Knowledge</a></td>
+						<td><a href="projects/chapter08/apply/index.html" target="_blank">Apply Your Knowledge</a></td>
+						<td><a href="projects/chapter09/apply/index.html" target="_blank">Apply Your Knowledge</a></td>
+					</tr>
+					<tr>
+						<td><a href="projects/chapter04/extend/extend04.html" target="_blank">Extend Your knowledge</a></td>
+						<td><a href="projects/chapter05/extend/index.html" target="_blank">Extend Your Knowledge</a></td>
+						<td><a href="projects/chapter06/extend/extend06.html" target="_blank">Extend Your Knowledge</a></td>
+						<td><a href="projects/chapter07/extend/extend07.html" target="_blank">Extend Your Knowledge</a></td>
+						<td><a href="projects/chapter08/extend/extend08.html" target="_blank">Extend Your Knowledge</a></td>
+						<td><a href="projects/chapter09/analyze/index.html" target="_blank">Analyze, Correct, Improve</a></td>
+					</tr>
+					<tr>
+						<td><a href="projects/chapter08/fitness08/index.html" target="_blank">Chapter 4 Fitness</a></td>
+						<td><a href="fitness/index.html" target="_blank">Chapter 5 Fitness</a></td>
+						<td><a href="projects/chapter06/fitness06/index.html" target="_blank">Chapter 6 Fitness</a></td>
+						<td><a href="projects/chapter07/fitness07/fitness/index.html" target="_blank">Chapter 7 Fitness</a></td>
+						<td><a href="projects/chapter08/fitness08/index.html" target="_blank">Chapter 8 Fitness</a></td>
+						<td><a href="projects/chapter09/fitness09/index.html" target="_blank">Chapter 9 Fitness</a></td>
+					</tr>
+				</table>
+			</div>
 		</main>
 		
 		<footer>
 			
 		</footer>
+
 	</div>
+
+	<script src="script.js"></script>
+
 </body>
 
 </html>
