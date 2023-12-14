@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Favorites</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div id="container">
+
+		<!--Mobile Nav-->
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Me</a>
+				<a href="projects.html">Projects</a>
+				<a href="contact.html">Contact</a>
+				<a href="hobbies.html">Hobbies</a>
+                <a href="favorites.html">Favorites</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+
+		<header id="ffc-logo"> 
+			<h1 class="header">My Favorites</h1>
+		</header>
+
+		<nav class="tablet-desktop">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="favorites.html">Favorites</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div id="favorites">
+				<h6>This is music from my favorite artist</h6>
+				<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0iEtIxbK0KxaSlF7G42ZOp?utm_source=generator" 
+				width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+				loading="lazy" class="artist"></iframe>
+				<h6>This is the trailer for my favorite movie</h6>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/NxW_X4kzeus?si=theizm5jDIL_7MkL" 
+				title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+				allowfullscreen class="trailer"></iframe>
+				<h6>My dog</h6>
+				<video controls class="dog">
+					<source src="scooby.mp4" type="video/mp4">
+				</video>
+			</div>
+		</main>
+		
+		
+	</div>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
 
