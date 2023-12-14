@@ -136,12 +136,6 @@ article:nth-of-type(3){
 	display: inline-block;
 }
 
-.dog{
-	width: auto;
-	height: 500px;
-	display: inline-block;
-}
-
 .round{
 	border-radius: 8px;
 }
@@ -182,6 +176,14 @@ article:nth-of-type(3){
 
 #form{
 	margin-top: 2%;
+}
+
+#favorites{
+	display: inline;
+	text-align: center;
+	margin: 0 auto;
+	float: left;
+	width: 100%;
 }
 
 fieldset, input, select, textarea{
@@ -226,13 +228,13 @@ main p a{
 .grid2 article li{
 	margin-left: 20px;
 }
-.map2{
+.map2, .map1, .artist, .trailer{
 	width: 300px;
 	height: 200px;
 }
-.map1{
-	width: 300px;
-	height: 200px;
+.dog{
+	width: auto;
+	height: 300px;
 }
 
 @media screen and (min-width: 630px), print{
