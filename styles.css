@@ -336,6 +336,10 @@ main p a{
 		padding: 1%;
 	}
 
+	td{
+		font-size: .85em;
+	}
+	
 	th, td{
 		border: 2px solid #fff;
 	}
