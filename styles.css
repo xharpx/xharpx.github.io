@@ -237,6 +237,24 @@ main p a{
 	height: 300px;
 }
 
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.social{
+	float: right;
+	padding: 2%;
+}
+
+.social img{
+	display: inline-block;
+	padding: 5%;
+	width: 50px;
+	height: 50px;
+}
+
 @media screen and (min-width: 630px), print{
 	/*Tablet Viewport: Show tablet-desktop class, hide mobile class */
 	.tablet-desktop{
@@ -434,20 +452,4 @@ main p a{
 		background-color: #fff;
 		color: #000;
 	}
-}
-
-footer{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-}
-footer p{
-	font-size: 1em;
-	text-align: center;
-	color: #fff;
-	padding: 0 1em;
-}
-footer p a{
-	color: #fff;
-	text-decoration: none;
 }
